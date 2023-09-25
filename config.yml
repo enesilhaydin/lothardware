@@ -21,7 +21,7 @@ params:
   # showDescriptioninHome: true
   # hideAllTagsinHome: true
   # searchBoxPlaceholder: "Type here to search..."
-  titleIcon: index.png
+  titleIcon: logo.svg
   headers:
     key: Device
     value: Tags
