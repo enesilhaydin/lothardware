@@ -1,1 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>html on LOTHardware</title><link>https://elaborate-dasik-09a3bd.netlify.app/@html/</link><description>Recent content in html on LOTHardware</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© hugo-index authors | [Privacy Policy](#)</copyright><atom:link href="https://elaborate-dasik-09a3bd.netlify.app/@html/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>html on LOTHardware</title>
+    <link>https://elaborate-dasik-09a3bd.netlify.app/@html/</link>
+    <description>Recent content in html on LOTHardware</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© hugo-index authors | [Privacy Policy](#)</copyright><atom:link href="https://elaborate-dasik-09a3bd.netlify.app/@html/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

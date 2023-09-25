@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>c52b on LOTHardware</title><link>https://elaborate-dasik-09a3bd.netlify.app/@c52b/</link><description>Recent content in c52b on LOTHardware</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© hugo-index authors | [Privacy Policy](#)</copyright><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://elaborate-dasik-09a3bd.netlify.app/@c52b/index.xml" rel="self" type="application/rss+xml"/><item><title>Logitech Unifying Receiver</title><link>https://elaborate-dasik-09a3bd.netlify.app/logitech-unifying/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><guid>https://elaborate-dasik-09a3bd.netlify.app/logitech-unifying/</guid><description>Description The Cactus WHID, developed by the open-source community and available on GitHub, is a covert and advanced keystroke injection device. Designed to cater to the needs of penetration testers and cybersecurity experts, this compact device discreetly disguises itself as a regular USB peripheral while harboring a completely different set of capabilities. Harnessing powerful scripting features and preloaded payloads, the Cactus WHID can swiftly execute intricate and covert operations on target systems.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>c52b on LOTHardware</title>
+    <link>https://elaborate-dasik-09a3bd.netlify.app/@c52b/</link>
+    <description>Recent content in c52b on LOTHardware</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© hugo-index authors | [Privacy Policy](#)</copyright>
+    <lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://elaborate-dasik-09a3bd.netlify.app/@c52b/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Logitech Unifying Receiver</title>
+      <link>https://elaborate-dasik-09a3bd.netlify.app/logitech-unifying/</link>
+      <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://elaborate-dasik-09a3bd.netlify.app/logitech-unifying/</guid>
+      <description>Description The Cactus WHID, developed by the open-source community and available on GitHub, is a covert and advanced keystroke injection device. Designed to cater to the needs of penetration testers and cybersecurity experts, this compact device discreetly disguises itself as a regular USB peripheral while harboring a completely different set of capabilities. Harnessing powerful scripting features and preloaded payloads, the Cactus WHID can swiftly execute intricate and covert operations on target systems.</description>
+    </item>
+    
+  </channel>
+</rss>
