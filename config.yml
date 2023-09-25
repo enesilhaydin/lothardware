@@ -1,7 +1,8 @@
 baseURL: http://localhost:1313
 languageCode: en-us
 title: LOTHardware
-theme: ../../
+#theme: ../../
+theme: hugo-index
 pygmentsUseClasses: true
 #enableInlineShortcodes: true
 Copyright: © hugo-index authors | [Privacy Policy](#)

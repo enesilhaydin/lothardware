@@ -1,45 +1,44 @@
 ---
 title: "Hak5 Rubber Ducky"
-date: 2023-05-21
-tags: ["hak5", "rubber", "ducky"]
+date: 2023-09-25
+tags: ["hak5", "rubber", "ducky","03EB", "2401","hid"]
 ---
 
-# Introduction
+<p align="center">
+  <img src="https://shop.hak5.org/cdn/shop/products/usb-rubber-ducky_mk2_2000x.jpg" alt="image" width="50%" height="50%">
+</p>
 
-Welcome to my first post! In this post, I will discuss various Markdown features and show you how to use them effectively.
+## Description
 
-## Headings
+The Rubber Ducky, crafted by Hak5, is a discreet and highly sophisticated keystroke injection tool. Designed for advanced penetration testers and security professionals, this pocket-sized device masquerades as a standard USB flash drive but operates with an entirely different purpose. Leveraging advanced scripting capabilities and preloaded payloads, the Rubber Ducky can execute complex and covert attacks on target systems with lightning speed. Its ability to inject keystrokes, mimic human typing patterns, and execute payloads in milliseconds makes it an invaluable asset for security assessments, uncovering vulnerabilities, and strengthening digital defenses. The Rubber Ducky is a must-have tool for professionals seeking to assess and fortify the security of computer systems with precision and efficiency.
 
-You can use headings to structure your content. Here's an example:
+### Device Instance Path
 
-### Subheading
-
-## Lists
-
-Markdown supports both ordered and unordered lists. Here are examples of both:
-
-1. Item 1
-2. Item 2
-3. Item 3
-
-- Unordered item 1
-- Unordered item 2
-- Unordered item 3
-
-## Links
-
-You can create links to external websites or internal pages. Here's an example:
-
-[Visit my website](https://github.com/adityatelange/hugo-index)
-
-## Code Blocks
-
-Markdown allows you to include code blocks. Here's an example of a code block in JavaScript:
-
-```javascript
-function greet(name) {
-  console.log("Hello, " + name + "!");
-}
-
-greet("John");
+```text
+HID\VID_03EB&PID_2401&REV_0100
 ```
+
+### VendorID
+
+```text
+03EB
+```
+
+### ProductID
+
+```text
+2401
+```
+### Class
+
+```text
+HID
+```
+
+### Sigma/Yara Rules
+
+Coming Soon...
+
+## Product Link
+
+https://shop.hak5.org/products/usb-rubber-ducky
