@@ -1,0 +1,10 @@
+[context.production.environment]
+	HUGO_VERSION = "0.118.2"
+	HUGO_ENV = "production"
+
+[context.deploy-preview.environment]
+  HUGO_VERSION = "0.118.2"
+
+[build]
+	publish = "public"
+	command = "hugo --minify --buildFuture"
