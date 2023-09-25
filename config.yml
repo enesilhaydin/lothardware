@@ -1,0 +1,59 @@
+baseURL: http://localhost:1313
+languageCode: en-us
+title: LOTHardware
+theme: ../../
+pygmentsUseClasses: true
+#enableInlineShortcodes: true
+Copyright: © hugo-index authors | [Privacy Policy](#)
+
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  # showDescriptioninHome: true
+  # hideAllTagsinHome: true
+  # searchBoxPlaceholder: "Type here to search..."
+  titleIcon: index.png
+  headers:
+    key: Device
+    value: Tags
+    # value: Description
+
+permalinks:
+  tags: "@:slug"
+
+taxonomies:
+  tag: "tags"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # for search
+
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+  instagram:
+    disabled: false
+    simple: true
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
