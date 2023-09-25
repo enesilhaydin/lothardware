@@ -1,4 +1,5 @@
-baseURL: https://heroic-eclair-5b2c54.netlify.app
+#baseURL: https://heroic-eclair-5b2c54.netlify.app
+baseURL: https://lothardware.pages.dev
 languageCode: en-us
 title: LOTHardware
 #theme: ../../
