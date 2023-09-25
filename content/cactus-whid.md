@@ -35,6 +35,8 @@ HID\VID_1B4F&PID_9207
 HID
 ```
 
+### Author
+
 ### Sigma/Yara Rules
 
 Coming Soon...
