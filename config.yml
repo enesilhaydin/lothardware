@@ -1,4 +1,4 @@
-baseURL: http://localhost:1313
+baseURL: https://elaborate-dasik-09a3bd.netlify.app
 languageCode: en-us
 title: LOTHardware
 #theme: ../../
