@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2401 on LOTHardware</title>
+    <link>https://elaborate-dasik-09a3bd.netlify.app/@2401/</link>
+    <description>Recent content in 2401 on LOTHardware</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© hugo-index authors | [Privacy Policy](#)</copyright>
+    <lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://elaborate-dasik-09a3bd.netlify.app/@2401/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hak5 Rubber Ducky</title>
+      <link>https://elaborate-dasik-09a3bd.netlify.app/hak5-rubber-ducky/</link>
+      <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://elaborate-dasik-09a3bd.netlify.app/hak5-rubber-ducky/</guid>
+      <description>Description The Rubber Ducky, crafted by Hak5, is a discreet and highly sophisticated keystroke injection tool. Designed for advanced penetration testers and security professionals, this pocket-sized device masquerades as a standard USB flash drive but operates with an entirely different purpose. Leveraging advanced scripting capabilities and preloaded payloads, the Rubber Ducky can execute complex and covert attacks on target systems with lightning speed. Its ability to inject keystrokes, mimic human typing patterns, and execute payloads in milliseconds makes it an invaluable asset for security assessments, uncovering vulnerabilities, and strengthening digital defenses.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -52,7 +52,6 @@ jobs:
         uses: actions/configure-pages@v1
       - name: Build with Hugo
         run: |
-          
           hugo \
             --buildDrafts --gc --verbose \
             --baseURL ${{ steps.pages.outputs.base_url }}
