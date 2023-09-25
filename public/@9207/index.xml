@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>9207 on LOTHardware</title>
-    <link>https://heroic-eclair-5b2c54.netlify.app/@9207/</link>
+    <link>https://lothardware.pages.dev/@9207/</link>
     <description>Recent content in 9207 on LOTHardware</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© hugo-index authors | [Privacy Policy](#)</copyright>
-    <lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://heroic-eclair-5b2c54.netlify.app/@9207/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lothardware.pages.dev/@9207/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cactus WHID</title>
-      <link>https://heroic-eclair-5b2c54.netlify.app/cactus-whid/</link>
+      <link>https://lothardware.pages.dev/cactus-whid/</link>
       <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://heroic-eclair-5b2c54.netlify.app/cactus-whid/</guid>
+      <guid>https://lothardware.pages.dev/cactus-whid/</guid>
       <description>Description The Cactus WHID, developed by the open-source community and available on GitHub, is a covert and advanced keystroke injection device. Designed to cater to the needs of penetration testers and cybersecurity experts, this compact device discreetly disguises itself as a regular USB peripheral while harboring a completely different set of capabilities. Harnessing powerful scripting features and preloaded payloads, the Cactus WHID can swiftly execute intricate and covert operations on target systems.</description>
     </item>
     
