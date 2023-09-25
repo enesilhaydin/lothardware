@@ -1,4 +1,4 @@
-name: Deploy Hugo Index Demo to Pages
+name: Deploy LOTHardware
 
 on:
   push:
@@ -13,7 +13,7 @@ on:
       hugoVersion:
         description: "Hugo Version"
         required: false
-        default: "0.118.2"
+        default: "0.100.0"
 
 # Allow one concurrent deployment
 concurrency:
@@ -36,7 +36,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: "0.118.2"
+      HUGO_VERSION: "0.100.0"
     steps:
       - name: Check version
         if: ${{ github.event.inputs.hugoVersion }}
@@ -52,14 +52,14 @@ jobs:
         uses: actions/configure-pages@v1
       - name: Build with Hugo
         run: |
-          cd ./exampleSite && \
+          
           hugo \
             --buildDrafts --gc --verbose \
             --baseURL ${{ steps.pages.outputs.base_url }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./exampleSite/public
+          path: ./public
   # Deployment job
   deploy:
     environment:
