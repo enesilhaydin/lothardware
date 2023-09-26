@@ -5,7 +5,7 @@ tags: ["cactus", "whid","hid"]
 ---
 
 <p align="center">
-  <img src="https://img.fruugo.com/product/0/02/347324020_max.jpg" alt="image" width="50%" height="50%">
+  <img src="./images/cactus.jpg" alt="image" width="50%" height="50%">
 </p>
 
 ## Description
@@ -36,6 +36,10 @@ HID
 ```
 
 ### Author
+
+```text
+@enesilhaydin
+```
 
 ### Sigma/Yara Rules
 
