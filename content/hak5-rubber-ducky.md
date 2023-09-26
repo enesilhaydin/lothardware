@@ -5,7 +5,7 @@ tags: ["hak5", "rubber", "ducky","hid"]
 ---
 
 <p align="center">
-  <img src="https://shop.hak5.org/cdn/shop/products/usb-rubber-ducky_mk2_2000x.jpg" alt="image" width="50%" height="50%">
+  <img src="/images/rubber-ducky.jpg" alt="image" width="50%" height="50%">
 </p>
 
 ## Description
@@ -35,6 +35,10 @@ HID\VID_03EB&PID_2401&REV_0100
 HID
 ```
 ### Author
+
+```text
+@enesilhaydin
+```
 
 ### Sigma/Yara Rules
 

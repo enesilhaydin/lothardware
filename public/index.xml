@@ -32,16 +32,16 @@
       <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>https://lothardware.com.tr/logitech-unifying/</guid>
-      <description>Description The Cactus WHID, developed by the open-source community and available on GitHub, is a covert and advanced keystroke injection device. Designed to cater to the needs of penetration testers and cybersecurity experts, this compact device discreetly disguises itself as a regular USB peripheral while harboring a completely different set of capabilities. Harnessing powerful scripting features and preloaded payloads, the Cactus WHID can swiftly execute intricate and covert operations on target systems.</description>
+      <description>Description First and foremost, it&amp;rsquo;s worth noting that this capability functions by exploiting the CVE-2019-13052 vulnerability. Many contemporary Logitech products incorporate the Unifying feature, which proves to be highly versatile. This functionality allows for up to six pairing processes to be carried out using a Unifying Receiver, which can be particularly useful in scenarios where the primary receiver is damaged or lost. In essence, the process revolves around leveraging this vulnerability.</description>
     </item>
     
     <item>
       <title>Nordic NRF52840</title>
-      <link>https://lothardware.com.tr/nodic-nrf52840/</link>
+      <link>https://lothardware.com.tr/nordic-nrf52840/</link>
       <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://lothardware.com.tr/nodic-nrf52840/</guid>
-      <description>Description The Rubber Ducky, crafted by Hak5, is a discreet and highly sophisticated keystroke injection tool. Designed for advanced penetration testers and security professionals, this pocket-sized device masquerades as a standard USB flash drive but operates with an entirely different purpose. Leveraging advanced scripting capabilities and preloaded payloads, the Rubber Ducky can execute complex and covert attacks on target systems with lightning speed. Its ability to inject keystrokes, mimic human typing patterns, and execute payloads in milliseconds makes it an invaluable asset for security assessments, uncovering vulnerabilities, and strengthening digital defenses.</description>
+      <guid>https://lothardware.com.tr/nordic-nrf52840/</guid>
+      <description>Description First and foremost, it&amp;rsquo;s worth noting that this capability functions by exploiting the CVE-2019-13052 vulnerability. Many contemporary Logitech products incorporate the Unifying feature, which proves to be highly versatile. This functionality allows for up to six pairing processes to be carried out using a Unifying Receiver, which can be particularly useful in scenarios where the primary receiver is damaged or lost. In essence, the process revolves around leveraging this vulnerability.</description>
     </item>
     
   </channel>

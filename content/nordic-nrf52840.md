@@ -1,11 +1,11 @@
 ---
-title: "Logitech Unifying Receiver"
+title: "Nordic NRF52840"
 date: 2023-09-25
-tags: ["logitech", "unifying","c-u0007","usb"]
+tags: ["nordic", "nrf52840", "usb","logitech"]
 ---
 
 <p align="center">
-  <img src="/images/unifying.png" alt="image" width="50%" height="50%">
+  <img src="/images/nordic.jpg" alt="image" width="50%" height="50%">
 </p>
 
 ## Description
@@ -14,33 +14,27 @@ First and foremost, it's worth noting that this capability functions by exploiti
 
 ### Device Instance Path
 
-V2:
 ```text
-USB\VID_046D&PID_C52B
-```
+USB\VID_1915&PID_520C&MI_00\6&20A3E423
 
-V1:
-```text
-USB\VID_046D&PID_C539
 ```
 
 ### VendorID
 
 ```text
-1B4F
+1915
 ```
 
 ### ProductID
 
 ```text
-9207
+520C
 ```
 ### Class
 
 ```text
-HID
+USB
 ```
-
 ### Author
 
 ```text
@@ -53,5 +47,5 @@ Coming Soon...
 
 ## Product Link
 
-1- https://www.logitech.com/tr-tr/products/mice/unifying-receiver-usb.910-005236.html
+1- https://www.amazon.com.tr/Nordic-nRF52840-Dongle-Bluetooth-Zigbee/dp/B07MCYTZ2S
 2- https://medium.com/@enesilhaydin/mini-mini-logitech-rubber-ducky-6016c72916eb
