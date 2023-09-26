@@ -1,7 +1,7 @@
 ---
 title: "Logitech Unifying Receiver"
 date: 2023-09-25
-tags: ["logitech", "unifying","c-u0012","c-u0007", "046d","usb","c52b"]
+tags: ["logitech", "unifying","c-u0007","usb"]
 ---
 
 <p align="center">
@@ -40,6 +40,8 @@ USB\VID_046D&PID_C539
 ```text
 HID
 ```
+
+### Author
 
 ### Sigma/Yara Rules
 

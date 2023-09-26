@@ -1,7 +1,7 @@
 ---
 title: "Hak5 Rubber Ducky"
 date: 2023-09-25
-tags: ["hak5", "rubber", "ducky","03EB", "2401","hid"]
+tags: ["hak5", "rubber", "ducky","hid"]
 ---
 
 <p align="center">
@@ -34,6 +34,7 @@ HID\VID_03EB&PID_2401&REV_0100
 ```text
 HID
 ```
+### Author
 
 ### Sigma/Yara Rules
 

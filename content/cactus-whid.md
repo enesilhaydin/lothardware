@@ -1,7 +1,7 @@
 ---
 title: "Cactus WHID"
 date: 2023-09-25
-tags: ["cactus", "whid","1B4F", "9207","hid"]
+tags: ["cactus", "whid","hid"]
 ---
 
 <p align="center">
