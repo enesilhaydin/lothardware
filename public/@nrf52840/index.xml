@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hak5 on LOTHardware</title>
-    <link>https://lothardware.com.tr/@hak5/</link>
-    <description>Recent content in hak5 on LOTHardware</description>
+    <title>nrf52840 on LOTHardware</title>
+    <link>https://lothardware.com.tr/@nrf52840/</link>
+    <description>Recent content in nrf52840 on LOTHardware</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2023 | enesilhaydin</copyright>
-    <lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lothardware.com.tr/@hak5/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lothardware.com.tr/@nrf52840/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hak5 Rubber Ducky</title>
-      <link>https://lothardware.com.tr/hak5-rubber-ducky/</link>
+      <title>Nordic NRF52840</title>
+      <link>https://lothardware.com.tr/nodic-nrf52840/</link>
       <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://lothardware.com.tr/hak5-rubber-ducky/</guid>
+      <guid>https://lothardware.com.tr/nodic-nrf52840/</guid>
       <description>Description The Rubber Ducky, crafted by Hak5, is a discreet and highly sophisticated keystroke injection tool. Designed for advanced penetration testers and security professionals, this pocket-sized device masquerades as a standard USB flash drive but operates with an entirely different purpose. Leveraging advanced scripting capabilities and preloaded payloads, the Rubber Ducky can execute complex and covert attacks on target systems with lightning speed. Its ability to inject keystrokes, mimic human typing patterns, and execute payloads in milliseconds makes it an invaluable asset for security assessments, uncovering vulnerabilities, and strengthening digital defenses.</description>
     </item>
     
