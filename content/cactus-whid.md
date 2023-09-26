@@ -5,7 +5,7 @@ tags: ["cactus", "whid","hid"]
 ---
 
 <p align="center">
-  <img src="./images/cactus.jpg" alt="image" width="50%" height="50%">
+  <img src="/images/cactus.jpg" alt="image" width="50%" height="50%">
 </p>
 
 ## Description
