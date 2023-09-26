@@ -47,5 +47,5 @@ Coming Soon...
 
 ## Product Link
 
-1- https://www.amazon.com.tr/Nordic-nRF52840-Dongle-Bluetooth-Zigbee/dp/B07MCYTZ2S
+1- https://www.amazon.com.tr/Nordic-nRF52840-Dongle-Bluetooth-Zigbee/dp/B07MCYTZ2S \
 2- https://medium.com/@enesilhaydin/mini-mini-logitech-rubber-ducky-6016c72916eb
