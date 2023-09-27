@@ -9,4 +9,4 @@ Please note that the values in the list are default values and it should be reme
 
 This project was created by Enes Ilhan Aydin.
 
-You can download the json version of the project from this [link](https://lothardware.com.tr)
+You can download the **JSON version of the project from this [link](https://github.com/enesilhaydin/lothardware/blob/main/hardwares.json)
