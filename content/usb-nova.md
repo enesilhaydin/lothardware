@@ -45,6 +45,6 @@ Coming soon.
 
 Coming Soon...
 
-## Product Link
+## Links
 
 1- https://usbnova.com/

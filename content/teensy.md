@@ -59,7 +59,7 @@ USB_SERIAL_HID Mode:
 
 Coming Soon...
 
-## Product Link
+## Links
 
 1- https://www.pjrc.com/teensy/ \
 2- https://github.com/PaulStoffregen/cores/pull/582/commits/ea2a70eaed6b78782cd4d5d504cd0ecc79ab46f2

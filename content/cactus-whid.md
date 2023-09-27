@@ -45,6 +45,6 @@ HID
 
 Coming Soon...
 
-## Product Link
+## Links
 
 https://github.com/whid-injector/WHID

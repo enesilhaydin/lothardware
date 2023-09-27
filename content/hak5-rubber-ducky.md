@@ -44,6 +44,6 @@ HID
 
 Coming Soon...
 
-## Product Link
+## Links
 
 https://shop.hak5.org/products/usb-rubber-ducky

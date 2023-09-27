@@ -44,7 +44,7 @@ USB
 
 Coming Soon...
 
-## Product Link
+## Links
 
 1- https://flipperzero.one/ \
 2- https://blog.grumpygoose.io/hunting-flipper-zero-db260274c45c

@@ -45,7 +45,7 @@ USB
 
 Coming Soon...
 
-## Product Link
+## Links
 
 1- https://www.amazon.com.tr/SanDisk-SDCZ48-016G-U46-Flash-Bellek-16GB/dp/B00DQG9DDU \
 2- https://www.mertsarica.com/bad-usb/
