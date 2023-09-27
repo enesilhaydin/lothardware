@@ -7,7 +7,54 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2023 | enesilhaydin</copyright>
-    <lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lothardware.com.tr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lothardware.com.tr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flipper Zero</title>
+      <link>https://lothardware.com.tr/flipper-zero/</link>
+      <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://lothardware.com.tr/flipper-zero/</guid>
+      <description>Description The Flipper Zero device, as documented in the insightful resource available at the provided link, is a multifunctional marvel of modern hardware hacking. It offers a diverse set of capabilities, allowing users to explore a wide range of security-related applications. By harnessing its potential, security professionals and enthusiasts can delve into tasks such as RFID and NFC analysis, remote control emulation, and much more. The Flipper Zero&amp;rsquo;s flexibility makes it an indispensable tool for both offensive and defensive cybersecurity operations, empowering users to assess vulnerabilities and enhance digital protections effectively.</description>
+    </item>
+    
+    <item>
+      <title>Sandisk Ultra 16GB</title>
+      <link>https://lothardware.com.tr/sandisk-ultra/</link>
+      <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://lothardware.com.tr/sandisk-ultra/</guid>
+      <description>Description The SanDisk Ultra 16GB USB drive featuring the PS2251-03 chip is a notable inclusion due to its potential for bad USB exploitation. This particular chip, known for its versatility, can be repurposed to execute malicious activities. By leveraging its capabilities, it&amp;rsquo;s possible to manipulate the device to behave in ways contrary to its intended use. This opens doors to various cybersecurity scenarios, making it a valuable addition for examining security vulnerabilities and reinforcing defenses.</description>
+    </item>
+    
+    <item>
+      <title>Teensy</title>
+      <link>https://lothardware.com.tr/teensy/</link>
+      <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://lothardware.com.tr/teensy/</guid>
+      <description>Description Coming soon&amp;hellip;.
+Device Instance Path USB Universal Halfkay:
+HID\VID_16C0&amp;amp;PID_0478 USB_SERIAL Mode:
+?\VID_16C0&amp;amp;PID_0483 USB_DUAL_SERIAL Mode:
+?\VID_16C0&amp;amp;PID_048B USB_TRIPLE_SERIAL Mode:
+?\VID_16C0&amp;amp;PID_048C USB_KEYBOARDONLY Mode:
+?\VID_16C0&amp;amp;PID_04D0 USB_HID Mode:
+?\VID_16C0&amp;amp;PID_0482 USB_SERIAL_HID Mode:
+?\VID_16C0&amp;amp;PID_0487 Author @enesilhaydin Sigma/Yara Rules Coming Soon&amp;hellip;
+Product Link 1- https://www.pjrc.com/teensy/ 2- https://github.com/PaulStoffregen/cores/pull/582/commits/ea2a70eaed6b78782cd4d5d504cd0ecc79ab46f2</description>
+    </item>
+    
+    <item>
+      <title>USB Nova</title>
+      <link>https://lothardware.com.tr/usb-nova/</link>
+      <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://lothardware.com.tr/usb-nova/</guid>
+      <description>Description Coming soon.
+Device Instance Path ?\VID_16D0&amp;amp;PID_11A4 VendorID 16D0 ProductID 11A4 Class ? Author @enesilhaydin Sigma/Yara Rules Coming Soon&amp;hellip;
+Product Link 1- https://usbnova.com/</description>
+    </item>
+    
     <item>
       <title>Cactus WHID</title>
       <link>https://lothardware.com.tr/cactus-whid/</link>

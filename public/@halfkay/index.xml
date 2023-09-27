@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>halfkay on LOTHardware</title>
+    <link>https://lothardware.com.tr/@halfkay/</link>
+    <description>Recent content in halfkay on LOTHardware</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2023 | enesilhaydin</copyright>
+    <lastBuildDate>Wed, 27 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lothardware.com.tr/@halfkay/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Teensy</title>
+      <link>https://lothardware.com.tr/teensy/</link>
+      <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://lothardware.com.tr/teensy/</guid>
+      <description>Description Coming soon&amp;hellip;.
+Device Instance Path USB Universal Halfkay:
+HID\VID_16C0&amp;amp;PID_0478 USB_SERIAL Mode:
+?\VID_16C0&amp;amp;PID_0483 USB_DUAL_SERIAL Mode:
+?\VID_16C0&amp;amp;PID_048B USB_TRIPLE_SERIAL Mode:
+?\VID_16C0&amp;amp;PID_048C USB_KEYBOARDONLY Mode:
+?\VID_16C0&amp;amp;PID_04D0 USB_HID Mode:
+?\VID_16C0&amp;amp;PID_0482 USB_SERIAL_HID Mode:
+?\VID_16C0&amp;amp;PID_0487 Author @enesilhaydin Sigma/Yara Rules Coming Soon&amp;hellip;
+Product Link 1- https://www.pjrc.com/teensy/ 2- https://github.com/PaulStoffregen/cores/pull/582/commits/ea2a70eaed6b78782cd4d5d504cd0ecc79ab46f2</description>
+    </item>
+    
+  </channel>
+</rss>
