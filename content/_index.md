@@ -1,6 +1,6 @@
 ---
-title: Index
-<!-- description: Index's description -->
+title: LOTHardware
+description: Living off the Hardware Projects 🧰
 ---
 
 Living Off The Hardware is a resource collection that provides guidance on identifying and utilizing malicious hardware and malicious devices. Definitions for these devices are shared below. You can create blocking definitions in your AV/EDR security solutions. Each device will have sample usage and a definition list.
