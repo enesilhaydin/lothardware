@@ -25,20 +25,32 @@ USB\VID_046D&PID_C539
 ```
 
 ### VendorID
-
+V2:
 ```text
-1B4F
+046D
+```
+
+V1:
+```text
+046D
 ```
 
 ### ProductID
 
+V2:
 ```text
-9207
+C52B
 ```
+
+V1:
+```text
+C539
+```
+
 ### Class
 
 ```text
-HID
+USB
 ```
 
 ### Author
@@ -53,5 +65,5 @@ Coming Soon...
 
 ## Product Link
 
-1- https://www.logitech.com/tr-tr/products/mice/unifying-receiver-usb.910-005236.html \
+1- https://www.logitech.com/tr-tr/products/mice/unifying-receiver-usb.910-005236.html
 2- https://medium.com/@enesilhaydin/mini-mini-logitech-rubber-ducky-6016c72916eb
