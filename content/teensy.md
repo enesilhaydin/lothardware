@@ -2,15 +2,12 @@
 title: "Teensy"
 date: 2023-09-27
 tags: ["teensy", "usb","halfkay"]
+description: Coming soon.... 
 ---
 
 <p align="center">
   <img src="/images/teensy.jpg" alt="image" width="50%" height="50%">
 </p>
-
-## Description
-
-Coming soon....
 
 ### Device Instance Path
 

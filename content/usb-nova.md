@@ -2,15 +2,13 @@
 title: "USB Nova"
 date: 2023-09-27
 tags: ["nova", "spacehuhn"]
+description: Coming soon.
 ---
 
 <p align="center">
   <img src="/images/usb-nova.jpg" alt="image" width="50%" height="50%">
 </p>
 
-## Description
-
-Coming soon.
 
 ### Device Instance Path
 
