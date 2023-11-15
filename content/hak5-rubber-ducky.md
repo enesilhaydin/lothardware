@@ -60,5 +60,5 @@ Coming Soon...
 
 ### Links
 
-https://shop.hak5.org/products/usb-rubber-ducky
-https://docs.hak5.org/hak5-usb-rubber-ducky/attack-modes-constants-and-variables/attack-modes#vid-and-pid-overview
+- https://shop.hak5.org/products/usb-rubber-ducky
+- https://docs.hak5.org/hak5-usb-rubber-ducky/attack-modes-constants-and-variables/attack-modes#vid-and-pid-overview
