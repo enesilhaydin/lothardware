@@ -80,3 +80,4 @@ Still open:
 - Punctuation: do not use em dashes anywhere, in commits, content, or docs. Prefer commas, periods, parentheses, or a plain hyphen.
 - The site cannot always be built or rendered locally here (Hugo may be missing), so changes are often made by static reasoning. Say so when a change would benefit from a real render check.
 - Work on a branch and let the repo owner review before anything lands on `main`.
+- Attribution: keep the homepage credit line "This project was created by Enes Ilhan Aydin." The catalog is his, and device pages use the author handle `@enesilhaydin`.
