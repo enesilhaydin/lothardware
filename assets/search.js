@@ -4,6 +4,19 @@ let fuse;
 let searchBox = document.getElementById('search');
 let resList = document.getElementById('tableListBody');
 
+function cardHTML(item) {
+    let tagList = '';
+    if (item.tags) {
+        item.tags.forEach(tag => {
+            tagList += `<li><a href="${tag.permalink}">${tag.title}</a></li>`
+        });
+    }
+    const thumb = item.image
+        ? `<img class="cardThumb" src="${item.image}" alt="${item.title}" loading="lazy" decoding="async">`
+        : '';
+    return `<div class="card"><a class="cardLink" href="${item.permalink}">${thumb}<span class="cardTitle">${item.title}</span></a><ul class="tagsList">${tagList}</ul></div>`;
+}
+
 window.onload = () => {
     fetch(params.BaseURL + 'index.json')
         .then(res => res.json())
@@ -26,24 +39,12 @@ searchBox.addEventListener('input', () => {
     let resultSet = '';
     let results = fuse.search(searchBox.value);
     if (results.length !== 0) {
-        for (let item in results) {
-            let tagList = '';
-            if (results[item].item.tags) {
-                results[item].item.tags.forEach(tag => {
-                    tagList += `<li><a href="${tag.permalink}">${tag.title}</a></li>`
-                });
-            }
-            resultSet += `<tr><td><a href="${results[item].item.permalink}">${results[item].item.title}</a></td><td><ul class="tagsList">${tagList}</ul></td></tr>`
+        for (let item of results) {
+            resultSet += cardHTML(item.item);
         }
     } else {
         for (let item of fuse.getIndex().docs) {
-            let tagList = '';
-            if (item.tags) {
-                item.tags.forEach(tag => {
-                    tagList += `<li><a href="${tag.permalink}">${tag.title}</a></li>`
-                });
-            }
-            resultSet += `<tr><td><a href="${item.permalink}">${item.title}</a></td><td><ul class="tagsList">${tagList}</ul></td></tr>`
+            resultSet += cardHTML(item);
         }
     }
     resList.innerHTML = resultSet;

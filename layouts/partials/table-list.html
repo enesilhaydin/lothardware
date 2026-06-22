@@ -1,0 +1,13 @@
+<div class="cardGrid" id="tableListBody">
+  {{- range .RegularPages }}
+  <div class="card">
+    <a class="cardLink" href="{{ .Permalink }}">
+      {{- if .Params.image }}<img class="cardThumb" src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy" decoding="async">{{ end }}
+      <span class="cardTitle">{{ .Title }}</span>
+    </a>
+    <ul class="tagsList">
+      {{- range (.GetTerms "tags") }}<li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>{{- end }}
+    </ul>
+  </div>
+  {{- end }}
+</div>

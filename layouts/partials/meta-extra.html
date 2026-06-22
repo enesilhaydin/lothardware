@@ -1,6 +1,6 @@
 {{- $title := cond .IsHome site.Title (printf "%s | %s" .Title site.Title) -}}
 {{- $desc := or .Description site.Params.description -}}
-{{- $ogimg := absURL (or site.Params.ogImage "index.png") -}}
+{{- $ogimg := absURL (or .Params.image site.Params.ogImage "index.png") -}}
 <link rel="canonical" href="{{ .Permalink }}">
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0e0f12" media="(prefers-color-scheme: dark)">
