@@ -6,7 +6,7 @@ description: The Flipper Zero device, as documented in the insightful resource a
 ---
 
 <p align="center">
-  <img src="/images/flipper-zero.jpg" alt="image" width="50%" height="50%">
+  <img src="/images/flipper-zero.jpg" alt="Flipper Zero" width="50%" height="50%" decoding="async">
 </p>
 
 ### Device Instance Path

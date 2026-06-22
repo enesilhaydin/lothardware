@@ -7,7 +7,7 @@ description: The Rubber Ducky, crafted by Hak5, is a discreet and highly sophist
 ---
 
 <p align="center">
-  <img src="/images/rubber-ducky.jpg" alt="image" width="50%" height="50%">
+  <img src="/images/rubber-ducky.jpg" alt="Hak5 Rubber Ducky" width="50%" height="50%" decoding="async">
 </p>
 
 ### Limitations

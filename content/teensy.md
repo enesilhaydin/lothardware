@@ -6,7 +6,7 @@ description: Coming soon....
 ---
 
 <p align="center">
-  <img src="/images/teensy.jpg" alt="image" width="50%" height="50%">
+  <img src="/images/teensy.jpg" alt="Teensy" width="50%" height="50%" decoding="async">
 </p>
 
 ### Device Instance Path

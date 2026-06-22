@@ -6,7 +6,7 @@ description: The Cactus WHID, developed by the open-source community and availab
 ---
 
 <p align="center">
-  <img src="/images/cactus.jpg" alt="image" width="50%" height="50%">
+  <img src="/images/cactus.jpg" alt="Cactus WHID" width="50%" height="50%" decoding="async">
 </p>
 
 ### Device Instance Path

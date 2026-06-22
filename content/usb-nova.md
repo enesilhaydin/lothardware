@@ -6,7 +6,7 @@ description: Coming soon.
 ---
 
 <p align="center">
-  <img src="/images/usb-nova.jpg" alt="image" width="50%" height="50%">
+  <img src="/images/usb-nova.jpg" alt="USB Nova" width="50%" height="50%" decoding="async">
 </p>
 
 

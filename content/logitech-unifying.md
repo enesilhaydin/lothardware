@@ -6,7 +6,7 @@ description: First and foremost, it's worth noting that this capability function
 ---
 
 <p align="center">
-  <img src="/images/unifying.png" alt="image" width="50%" height="50%">
+  <img src="/images/unifying.png" alt="Logitech Unifying Receiver" width="50%" height="50%" decoding="async">
 </p>
 
 ### Device Instance Path

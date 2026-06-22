@@ -6,7 +6,7 @@ description: First and foremost, it's worth noting that this capability function
 ---
 
 <p align="center">
-  <img src="/images/nordic.jpg" alt="image" width="50%" height="50%">
+  <img src="/images/nordic.jpg" alt="Nordic NRF52840" width="50%" height="50%" decoding="async">
 </p>
 
 ### Device Instance Path

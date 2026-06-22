@@ -6,7 +6,7 @@ description: The SanDisk Ultra 16GB USB drive featuring the PS2251-03 chip is a 
 ---
 
 <p align="center">
-  <img src="/images/sandisk-ultra.jpg" alt="image" width="50%" height="50%">
+  <img src="/images/sandisk-ultra.jpg" alt="Sandisk Ultra 16GB" width="50%" height="50%" decoding="async">
 </p>
 
 ### Device Instance Path

@@ -6,7 +6,7 @@ description: Coming soon.
 ---
 
 <p align="center">
-  <img src="/images/lilypad.jpg" alt="image" width="50%" height="50%">
+  <img src="/images/lilypad.jpg" alt="Lilypad Attiny85" width="50%" height="50%" decoding="async">
 </p>
 
 ### Device Instance Path
