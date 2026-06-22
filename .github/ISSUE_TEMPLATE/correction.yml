@@ -1,0 +1,22 @@
+name: Correction or error report
+description: Report a wrong value or other error on a device page
+title: "[Fix] "
+labels: ["correction"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Which device or page
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong
+    validations:
+      required: true
+  - type: textarea
+    id: correct
+    attributes:
+      label: Correct value
+      description: Please include a source if you have one

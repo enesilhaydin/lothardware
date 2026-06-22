@@ -1,0 +1,28 @@
+name: Device request
+description: Suggest a malicious or attack capable USB or HID device to add to the catalog
+title: "[Device] "
+labels: ["device request"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Device name
+      placeholder: e.g. Hak5 Bash Bunny
+    validations:
+      required: true
+  - type: input
+    id: ids
+    attributes:
+      label: USB identifiers (if known)
+      placeholder: e.g. VID_1234 and PID_5678, or the device instance path
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Datasheet, vendor page, GitHub repo, or write-up that documents the device
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
