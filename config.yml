@@ -20,7 +20,7 @@ params:
   # searchBoxPlaceholder: "Type here to search..."
   titleIcon: logo.svg
   description: "Living Off The Hardware, a catalog of malicious USB and HID devices with their identifiers and detection notes for defenders."
-  ogImage: index.png
+  ogImage: og-card.png
   headers:
     key: Device
     value: Tags
