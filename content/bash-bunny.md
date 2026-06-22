@@ -1,11 +1,14 @@
 ---
 title: "Bash Bunny"
 date: 2026-06-22
+image: /images/bash-bunny.jpg
 tags: ["hak5", "bash", "bunny", "usb", "composite"]
 description: The Bash Bunny, made by Hak5, is a multi-function USB attack platform built around an embedded Linux system on a quad-core ARM SoC. It presents itself to a target host as a Linux USB gadget and can switch between attack modes that expose different USB device classes, including HID keyboard injection, mass storage, serial console, and the RNDIS and ECM Ethernet gadgets used for network-based attacks. Its default gadget vendor ID is F000, with per-mode product IDs assigned by its firmware for each attack mode and composite combination.
 ---
 
-<!-- TODO: owner adds a photo at static/images/bash-bunny.jpg then an `image: /images/bash-bunny.jpg` line to the front matter -->
+<p align="center">
+  <img src="/images/bash-bunny.jpg" alt="Bash Bunny" width="50%" decoding="async">
+</p>
 
 ## Description
 

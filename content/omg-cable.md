@@ -1,11 +1,14 @@
 ---
 title: "O.MG Cable"
 date: 2026-06-22
+image: /images/omg-cable.jpg
 tags: ["omg", "cable", "implant", "hid", "wifi"]
 description: The O.MG Cable, made by Mischief Gadgets, is a USB cable with a covert implant hidden inside the connector. It looks and works like an ordinary charging or data cable but contains an ESP32 class system on chip with Wi-Fi that lets an operator inject keystrokes and run payloads over a remote web interface. Because the implant emulates a USB HID keyboard, the vendor and product IDs it presents to the host are chosen by the operator and have no fixed factory default.
 ---
 
-<!-- TODO: owner adds a photo at static/images/omg-cable.jpg then an `image: /images/omg-cable.jpg` line to the front matter -->
+<p align="center">
+  <img src="/images/omg-cable.jpg" alt="O.MG Cable" width="50%" decoding="async">
+</p>
 
 ## Description
 

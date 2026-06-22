@@ -1,11 +1,14 @@
 ---
 title: "STM32 Blue Pill"
 date: 2026-06-22
+image: /images/stm32-blue-pill.jpg
 tags: ["stm32","blue-pill","stm32f103","hid","cdc"]
 description: The STM32 Blue Pill is an inexpensive development board based on the STMicroelectronics STM32F103 microcontroller. It is commonly used as a DIY USB attack platform because the chip can act as a native USB HID device, allowing operators to flash keystroke injection sketches that present the board as a keyboard. The Blue Pill enumerates with several different USB identities depending on whether it is running a Maple bootloader, an STM32 HID bootloader, the native ST DFU bootloader, or user defined application firmware.
 ---
 
-<!-- TODO: owner adds a photo at static/images/stm32-blue-pill.jpg then an `image: /images/stm32-blue-pill.jpg` line to the front matter -->
+<p align="center">
+  <img src="/images/stm32-blue-pill.jpg" alt="STM32 Blue Pill" width="50%" decoding="async">
+</p>
 
 ## Description
 

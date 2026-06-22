@@ -1,11 +1,14 @@
 ---
 title: "Shark Jack"
 date: 2026-06-22
+image: /images/shark-jack.jpg
 tags: ["hak5", "shark", "jack", "network", "serial"]
 description: The Shark Jack, made by Hak5, is a portable network attack and reconnaissance tool, not a keystroke injection device. It runs payloads against a wired network the moment it is connected to an Ethernet port. For configuration and payload management it exposes a serial console over a Silicon Labs CP2102 USB-to-UART bridge, which enumerates with the vendor and product ID 10C4:EA60. The CP2102 is a generic USB serial controller, so that identifier is shared with many unrelated devices.
 ---
 
-<!-- TODO: owner adds a photo at static/images/shark-jack.jpg then an `image: /images/shark-jack.jpg` line to the front matter -->
+<p align="center">
+  <img src="/images/shark-jack.jpg" alt="Shark Jack" width="50%" decoding="async">
+</p>
 
 ## Description
 

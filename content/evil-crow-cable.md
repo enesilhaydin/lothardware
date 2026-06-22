@@ -1,11 +1,14 @@
 ---
 title: "Evil Crow Cable"
 date: 2026-06-22
+image: /images/evil-crow-cable.jpg
 tags: ["evil-crow","cable","hid","attiny85","digispark"]
 description: The Evil Crow Cable, developed by Joel Serna Moreno, is an open source keystroke injection cable based on the ATtiny85 and Digispark lineage. In its micronucleus bootloader state it enumerates as 16D0:0753, and once a HID payload is flashed it re-enumerates as 16C0:27DB, the shared V-USB keyboard identifier. Two later variants exist. The Evil Crow Cable Wind uses an ESP32-S3 with a configurable USB identity on Espressif base 303A, and the Evil Crow Cable Pro uses a different controller whose chipset and IDs are not documented.
 ---
 
-<!-- TODO: owner adds a photo at static/images/evil-crow-cable.jpg then an `image: /images/evil-crow-cable.jpg` line to the front matter -->
+<p align="center">
+  <img src="/images/evil-crow-cable.jpg" alt="Evil Crow Cable" width="50%" decoding="async">
+</p>
 
 ## Description
 

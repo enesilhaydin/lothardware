@@ -1,11 +1,14 @@
 ---
 title: "Raspberry Pi Pico"
 date: 2026-06-22
+image: /images/raspberry-pi-pico.jpg
 tags: ["raspberry-pi","pico","rp2040","hid","pico-ducky"]
 description: The Raspberry Pi Pico is a low cost microcontroller board built around the RP2040 chip from Raspberry Pi. It is widely repurposed as a keystroke injection tool through firmware such as pico-ducky, which turns the board into a USB HID keyboard that types out scripted payloads. Because the RP2040 can present several different USB identities depending on the firmware loaded, the Pico is a flexible platform for offensive USB work and a common false negative when detection only watches for the Raspberry Pi vendor ID.
 ---
 
-<!-- TODO: owner adds a photo at static/images/raspberry-pi-pico.jpg then an `image: /images/raspberry-pi-pico.jpg` line to the front matter -->
+<p align="center">
+  <img src="/images/raspberry-pi-pico.jpg" alt="Raspberry Pi Pico" width="50%" decoding="async">
+</p>
 
 ## Description
 

@@ -1,11 +1,14 @@
 ---
 title: "USB Killer"
 date: 2026-06-22
+image: /images/usb-killer.jpg
 tags: ["usb-killer","hardware","electrical","destruction"]
 description: The USB Killer is a malicious hardware device designed to physically destroy equipment through its USB port. It rapidly charges internal capacitors from the USB power line and then discharges a high voltage surge back into the host, damaging or destroying the data lines and other components. Unlike keystroke injection tools it is not a data attack device and does not enumerate over USB at all, presenting no descriptor and no vendor or product ID, so it cannot be detected through USB device events.
 ---
 
-<!-- TODO: owner adds a photo at static/images/usb-killer.jpg then an `image: /images/usb-killer.jpg` line to the front matter -->
+<p align="center">
+  <img src="/images/usb-killer.jpg" alt="USB Killer" width="50%" decoding="async">
+</p>
 
 ## Description
 

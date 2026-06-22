@@ -1,11 +1,14 @@
 ---
 title: "USBNinja"
 date: 2026-06-22
+image: /images/usbninja.jpg
 tags: ["usbninja", "cable", "implant", "hid", "ble"]
 description: USBNinja, from the RFID Research Group, is a USB cable and connector implant that behaves like a normal cable until it is triggered over Bluetooth Low Energy, at which point it emulates a USB HID keyboard or mouse and runs a preloaded payload. It is Arduino programmable, and the vendor and product IDs it presents are defined by the operator in its firmware, with no published factory default.
 ---
 
-<!-- TODO: owner adds a photo at static/images/usbninja.jpg then an `image: /images/usbninja.jpg` line to the front matter -->
+<p align="center">
+  <img src="/images/usbninja.jpg" alt="USBNinja" width="50%" decoding="async">
+</p>
 
 ## Description
 

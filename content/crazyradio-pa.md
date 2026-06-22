@@ -1,11 +1,14 @@
 ---
 title: "Crazyradio PA"
 date: 2026-06-22
+image: /images/crazyradio-pa.jpg
 tags: ["crazyradio","bitcraze","nrf24","mousejack","rf"]
 description: The Crazyradio PA is a long range 2.4GHz USB radio dongle from Bitcraze built around the Nordic Semiconductor nRF24LU1+ chip with a power amplifier. Although it ships as the radio link for the Crazyflie drone platform, it is the primary tool used by the MouseJack and JackIt projects to discover and inject keystrokes into vulnerable wireless mice and keyboards. It enumerates over USB as a vendor specific device using a libusb driver rather than as a HID peripheral.
 ---
 
-<!-- TODO: owner adds a photo at static/images/crazyradio-pa.jpg then an `image: /images/crazyradio-pa.jpg` line to the front matter -->
+<p align="center">
+  <img src="/images/crazyradio-pa.jpg" alt="Crazyradio PA" width="50%" decoding="async">
+</p>
 
 ## Description
 

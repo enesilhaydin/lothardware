@@ -1,11 +1,14 @@
 ---
 title: "Screen Crab"
 date: 2026-06-22
+image: /images/screen-crab.jpg
 tags: ["hak5", "screen", "crab", "hdmi", "implant"]
 description: The Screen Crab, made by Hak5, is a covert HDMI man-in-the-middle implant that sits inline between a video source and a display and captures screenshots or video of what is shown. It is built on an embedded Linux system and, when connected to a host over USB for configuration, exposes an Android Debug Bridge gadget interface that enumerates with the vendor and product ID 18D1:4EE7. That identifier is the standard Google ADB gadget ID used by Android devices in debugging mode.
 ---
 
-<!-- TODO: owner adds a photo at static/images/screen-crab.jpg then an `image: /images/screen-crab.jpg` line to the front matter -->
+<p align="center">
+  <img src="/images/screen-crab.jpg" alt="Screen Crab" width="50%" decoding="async">
+</p>
 
 ## Description
 

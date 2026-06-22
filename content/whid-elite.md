@@ -1,11 +1,14 @@
 ---
 title: "WHID Elite"
 date: 2026-06-22
+image: /images/whid-elite.jpg
 tags: ["whid","elite","hid","atmega32u4","gsm","wireless"]
 description: The WHID Elite, from the whid-injector project, is a remote keystroke injection platform that combines an ATmega32U4 for USB HID with an ESP module and a GSM modem for long range command and control. It enumerates with the Arduino LilyPadUSB profile identifier 1B4F:9207, the same profile used by the Cactus WHID. The GSM channel allows an operator to trigger payloads over the cellular network rather than relying on local Wi-Fi proximity.
 ---
 
-<!-- TODO: owner adds a photo at static/images/whid-elite.jpg then an `image: /images/whid-elite.jpg` line to the front matter -->
+<p align="center">
+  <img src="/images/whid-elite.jpg" alt="WHID Elite" width="50%" decoding="async">
+</p>
 
 ## Description
 

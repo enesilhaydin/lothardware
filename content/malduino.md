@@ -1,11 +1,14 @@
 ---
 title: "MalDuino"
 date: 2026-06-22
+image: /images/malduino.jpg
 tags: ["malduino","maltronics","hid","atmega32u4","keystroke-injection"]
 description: The MalDuino, made by Maltronics, is a keystroke injection device built on the ATmega32U4 microcontroller. Depending on the board profile it compiles against, it enumerates with the SparkFun Pro Micro sketch identifier 1B4F:9206 or the Arduino Leonardo identifier 2341:8036. It presents to the host as a Human Interface Device and types preprogrammed payloads. A wireless variant called MalDuino W adds Wi-Fi control on top of the same injection capability.
 ---
 
-<!-- TODO: owner adds a photo at static/images/malduino.jpg then an `image: /images/malduino.jpg` line to the front matter -->
+<p align="center">
+  <img src="/images/malduino.jpg" alt="MalDuino" width="50%" decoding="async">
+</p>
 
 ## Description
 

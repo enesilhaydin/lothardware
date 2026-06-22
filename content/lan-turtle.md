@@ -1,11 +1,14 @@
 ---
 title: "LAN Turtle"
 date: 2026-06-22
+image: /images/lan-turtle.jpg
 tags: ["hak5", "lan", "turtle", "implant", "ethernet"]
 description: The LAN Turtle, made by Hak5, is a covert systems administration and penetration testing implant housed in a generic USB-to-Ethernet adapter casing. It is built around a Realtek RTL8152 USB Ethernet controller and enumerates on the host with the vendor and product ID 0BDA:8152. Once connected it provides remote network access, man-in-the-middle, and surveillance capabilities while appearing to be an ordinary USB network adapter.
 ---
 
-<!-- TODO: owner adds a photo at static/images/lan-turtle.jpg then an `image: /images/lan-turtle.jpg` line to the front matter -->
+<p align="center">
+  <img src="/images/lan-turtle.jpg" alt="LAN Turtle" width="50%" decoding="async">
+</p>
 
 ## Description
 

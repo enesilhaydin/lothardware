@@ -1,11 +1,14 @@
 ---
 title: "Cynthion"
 date: 2026-06-22
+image: /images/cynthion.jpg
 tags: ["cynthion","great-scott-gadgets","usb","fpga","facedancer"]
 description: The Cynthion is an FPGA based USB test, analysis, and attack platform from Great Scott Gadgets. Out of the box it acts as a High-Speed USB protocol analyzer, and combined with the LUNA gateware and the FaceDancer framework it becomes a tool for creating, emulating, and tampering with real USB devices, including man in the middle attacks between a host and a device. It enumerates over USB as a vendor specific device and is the modern hardware backend for FaceDancer.
 ---
 
-<!-- TODO: owner adds a photo at static/images/cynthion.jpg then an `image: /images/cynthion.jpg` line to the front matter -->
+<p align="center">
+  <img src="/images/cynthion.jpg" alt="Cynthion" width="50%" decoding="async">
+</p>
 
 ## Description
 

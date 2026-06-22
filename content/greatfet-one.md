@@ -1,11 +1,14 @@
 ---
 title: "GreatFET One"
 date: 2026-06-22
+image: /images/greatfet-one.jpg
 tags: ["greatfet","great-scott-gadgets","lpc4330","usb","facedancer"]
 description: The GreatFET One is an open source hardware hacking peripheral from Great Scott Gadgets built around the NXP LPC4330 microcontroller. It functions as a versatile interface board for interacting with electronic devices and can act as a USB device emulation backend for the FaceDancer framework, allowing it to present arbitrary USB devices to a target host. It enumerates over USB as a vendor specific device, with separate identities for its normal run mode and its DFU programming mode.
 ---
 
-<!-- TODO: owner adds a photo at static/images/greatfet-one.jpg then an `image: /images/greatfet-one.jpg` line to the front matter -->
+<p align="center">
+  <img src="/images/greatfet-one.jpg" alt="GreatFET One" width="50%" decoding="async">
+</p>
 
 ## Description
 

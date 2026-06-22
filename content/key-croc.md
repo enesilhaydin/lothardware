@@ -1,11 +1,14 @@
 ---
 title: "Key Croc"
 date: 2026-06-22
+image: /images/key-croc.jpg
 tags: ["hak5", "key", "croc", "keylogger", "hid"]
 description: The Key Croc, made by Hak5, is a keylogger and keystroke injection implant built on an embedded Linux system that sits inline between a USB keyboard and the host. It logs keystrokes and can trigger payloads that inject its own keystrokes as a HID keyboard. By default it presents the gadget vendor and product ID F000:FF01, but it can clone the vendor and product ID of the keyboard plugged into it so that it blends in with the legitimate device on the target.
 ---
 
-<!-- TODO: owner adds a photo at static/images/key-croc.jpg then an `image: /images/key-croc.jpg` line to the front matter -->
+<p align="center">
+  <img src="/images/key-croc.jpg" alt="Key Croc" width="50%" decoding="async">
+</p>
 
 ## Description
 

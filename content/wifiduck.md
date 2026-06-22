@@ -1,11 +1,14 @@
 ---
 title: "WiFi Duck"
 date: 2026-06-22
+image: /images/wifiduck.jpg
 tags: ["wifiduck","spacehuhn","dstike","hid","atmega32u4","esp8266"]
 description: The WiFi Duck, developed by Spacehuhn and sold in hardware form as the DSTIKE WiFi Duck, is a keystroke injection platform that pairs an ATmega32U4 for USB HID with an ESP8266 for a Wi-Fi management interface. By default it enumerates with the SparkFun Pro Micro sketch identifier 1B4F:9206. The ESP8266 hosts a web interface that lets an operator write and launch DuckyScript style payloads over Wi-Fi without physical access to the target after deployment.
 ---
 
-<!-- TODO: owner adds a photo at static/images/wifiduck.jpg then an `image: /images/wifiduck.jpg` line to the front matter -->
+<p align="center">
+  <img src="/images/wifiduck.jpg" alt="WiFi Duck" width="50%" decoding="async">
+</p>
 
 ## Description
 

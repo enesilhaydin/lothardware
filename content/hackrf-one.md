@@ -1,11 +1,14 @@
 ---
 title: "HackRF One"
 date: 2026-06-22
+image: /images/hackrf-one.jpg
 tags: ["hackrf","great-scott-gadgets","sdr","rf","wireless"]
 description: The HackRF One is an open source Software Defined Radio peripheral from Great Scott Gadgets capable of transmitting and receiving radio signals from 1 MHz to 6 GHz. It is a half duplex transceiver that lets security researchers capture, analyze, and replay a wide range of wireless protocols. It connects over Hi-Speed USB 2.0 and enumerates as a vendor specific SDR device rather than as a HID peripheral, so it is not a keystroke injector but a general purpose radio attack and research tool.
 ---
 
-<!-- TODO: owner adds a photo at static/images/hackrf-one.jpg then an `image: /images/hackrf-one.jpg` line to the front matter -->
+<p align="center">
+  <img src="/images/hackrf-one.jpg" alt="HackRF One" width="50%" decoding="async">
+</p>
 
 ## Description
 
