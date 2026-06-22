@@ -21,7 +21,7 @@ params:
   titleIcon: logo.svg
   description: "A defensive catalog of malicious USB and HID attack hardware, with the USB identifiers and Sigma detection rules defenders need to detect and block them."
   tagline: "Malicious USB and HID Attack Hardware Catalog"
-  ogImage: og-card.png
+  ogImage: og-card-v2.png
   headers:
     key: Device
     value: Tags
