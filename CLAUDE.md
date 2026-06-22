@@ -50,7 +50,7 @@ The theme partial `themes/hugo-index/layouts/partials/head.html` drives this:
 
 The theme is a submodule and is never edited directly. The project carries a few overrides under `layouts/`:
 
-- `layouts/_default/baseof.html` is a verbatim copy of the theme file with one extra line that pulls in `meta-extra.html`. The complex `head.html` (asset pipeline) was left untouched on purpose, so theme updates to it still apply.
+- `layouts/_default/baseof.html` is a verbatim copy of the theme file with one extra line that pulls in `meta-extra.html`. `layouts/partials/head.html` is also a verbatim copy of the theme file, changed only to give the home page a descriptive `<title>` (`site.Title` plus `params.tagline`) for SEO. If the theme updates its asset pipeline, mirror those lines here.
 - `layouts/partials/meta-extra.html` adds canonical, OpenGraph, Twitter, and theme-color tags. The default share image comes from `params.ogImage` in `config.yml`.
 - Dark mode lives in `assets/styles.css` through `prefers-color-scheme`. The light theme keeps the original black on white look. Code blocks stay light in both modes, because the Chroma styles are a fixed light palette.
 

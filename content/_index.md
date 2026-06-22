@@ -1,6 +1,6 @@
 ---
 title: LOTHardware
-description: Living off the Hardware Project 🧰
+description: "A defensive catalog of malicious USB and HID attack hardware, with the USB identifiers and Sigma detection rules defenders need to detect and block them."
 ---
 
 Living Off The Hardware is a resource collection that helps you identify and understand malicious hardware and attack capable devices. Definitions for these devices are shared below, and you can use them to create blocking rules in your AV and EDR security solutions. Each device comes with sample usage and a list of its identifiers.

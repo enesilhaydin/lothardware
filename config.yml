@@ -19,7 +19,8 @@ params:
   # hideAllTagsinHome: true
   # searchBoxPlaceholder: "Type here to search..."
   titleIcon: logo.svg
-  description: "Living Off The Hardware, a catalog of malicious USB and HID devices with their identifiers and detection notes for defenders."
+  description: "A defensive catalog of malicious USB and HID attack hardware, with the USB identifiers and Sigma detection rules defenders need to detect and block them."
+  tagline: "Malicious USB and HID Attack Hardware Catalog"
   ogImage: og-card.png
   headers:
     key: Device
