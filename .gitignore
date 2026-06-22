@@ -1,3 +1,15 @@
+# Hugo build output
+/public/
+/resources/_gen/
 .hugo_build.lock
-netlify.toml.bak
-hugo.toml.bak
+hugo_stats.json
+
+# Local config backups and scratch files
+*.bak
+
+# macOS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
