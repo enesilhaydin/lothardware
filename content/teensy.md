@@ -1,6 +1,7 @@
 ---
 title: "Teensy"
 date: 2023-09-27
+image: /images/teensy.jpg
 tags: ["teensy", "usb","halfkay"]
 description: Coming soon.... 
 ---

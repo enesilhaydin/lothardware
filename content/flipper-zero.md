@@ -1,6 +1,7 @@
 ---
 title: "Flipper Zero"
 date: 2023-09-27
+image: /images/flipper-zero.jpg
 tags: ["flipper", "usb"]
 description: The Flipper Zero device, as documented in the insightful resource available at the provided link, is a multifunctional marvel of modern hardware hacking. It offers a diverse set of capabilities, allowing users to explore a wide range of security-related applications. By harnessing its potential, security professionals and enthusiasts can delve into tasks such as RFID and NFC analysis, remote control emulation, and much more. The Flipper Zero's flexibility makes it an indispensable tool for both offensive and defensive cybersecurity operations, empowering users to assess vulnerabilities and enhance digital protections effectively.
 ---

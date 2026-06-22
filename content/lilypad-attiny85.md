@@ -1,6 +1,7 @@
 ---
 title: "Lilypad Attiny85"
 date: 2023-09-28
+image: /images/lilypad.jpg
 tags: ["lilypad", "attiny85","atmel"]
 description: Coming soon.
 ---

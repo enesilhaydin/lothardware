@@ -1,6 +1,7 @@
 ---
 title: "Arduino Pro Micro"
 date: 2023-09-28
+image: /images/arduino-pro-micro.jpg
 tags: ["arduino", "32u4"]
 description: Coming soon.
 ---

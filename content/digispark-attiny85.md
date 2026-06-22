@@ -1,6 +1,7 @@
 ---
 title: "Digispark Attiny85"
 date: 2023-09-28
+image: /images/attiny85.jpg
 tags: ["digispark", "atmel","attiny85"]
 description: Coming soon.
 ---

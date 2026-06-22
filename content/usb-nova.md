@@ -1,6 +1,7 @@
 ---
 title: "USB Nova"
 date: 2023-09-27
+image: /images/usb-nova.jpg
 tags: ["nova", "spacehuhn"]
 description: Coming soon.
 ---
