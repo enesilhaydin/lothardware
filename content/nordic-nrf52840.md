@@ -12,9 +12,13 @@ description: First and foremost, it's worth noting that this capability function
 
 ### Device Instance Path
 
+Operational (HID injector):
 ```text
 USB\VID_1915&PID_520C&MI_00\6&20A3E423
-
+```
+Open DFU bootloader (the common real-world enumeration when the dongle is flashed):
+```text
+USB\VID_1915&PID_521F
 ```
 
 ### VendorID
@@ -22,17 +26,26 @@ USB\VID_1915&PID_520C&MI_00\6&20A3E423
 ```text
 1915
 ```
+Nordic Semiconductor ASA.
 
 ### ProductID
 
+Operational:
 ```text
 520C
 ```
+Open DFU bootloader:
+```text
+521F
+```
+
 ### Class
 
 ```text
-USB
+HID
 ```
+The dongle acts as a wireless HID injector. Paired to a Logitech Unifying receiver via the CVE-2019-13052 flaw, it relays keystrokes so the receiver behaves like a Rubber Ducky.
+
 ### Author
 
 ```text
@@ -41,9 +54,35 @@ USB
 
 ### Sigma/Yara Rules
 
-Coming Soon...
+```yaml
+title: Nordic nRF52840 Dongle USB Device Connected
+id: 2a42d6d7-731b-4a15-97e8-09b421c2f84d
+status: experimental
+description: Detects a Nordic nRF52840 Dongle by its default USB VID/PID. These identifiers can be spoofed, so treat this as an indicator.
+references:
+    - https://lothardware.com.tr/nordic-nrf52840/
+author: '@enesilhaydin'
+date: 2026/06/22
+logsource:
+    product: windows
+    service: security
+detection:
+    selection:
+        EventID: 6416
+        DeviceId|contains: 'VID_1915&PID_520C'
+    condition: selection
+falsepositives:
+    - Unrelated hardware sharing the same controller VID/PID
+level: medium
+tags:
+    - attack.initial_access
+    - attack.t1200
+```
+
+Requires Windows Audit PNP Activity (Security Event 6416).
 
 ### Links
 
 1- https://www.amazon.com.tr/Nordic-nRF52840-Dongle-Bluetooth-Zigbee/dp/B07MCYTZ2S \
-2- https://medium.com/@enesilhaydin/mini-mini-logitech-rubber-ducky-6016c72916eb
+2- https://medium.com/@enesilhaydin/mini-mini-logitech-rubber-ducky-6016c72916eb \
+3- https://github.com/NordicSemiconductor/pc-nrfutil

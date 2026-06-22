@@ -14,24 +14,35 @@ description: The SanDisk Ultra 16GB USB drive featuring the PS2251-03 chip is a 
 
 ```text
 USB\VID_0781&PID_5581
-
 ```
+This is a legitimate flash drive; the entry covers its abuse as a malicious-storage / BadUSB carrier when the controller is reprogrammed.
 
 ### VendorID
 
 ```text
 0781
 ```
+SanDisk Corp.
 
 ### ProductID
 
+Ultra:
 ```text
 5581
 ```
+Related Ultra-family variants:
+```text
+5583  (Ultra Fit)
+5590  (Ultra Dual)
+5591  (Ultra Flair)
+556C  (Ultra)
+5580  (SDCZ80)
+```
+
 ### Class
 
 ```text
-USB
+Mass Storage
 ```
 ### Author
 
@@ -41,7 +52,32 @@ USB
 
 ### Sigma/Yara Rules
 
-Coming Soon...
+```yaml
+title: SanDisk Ultra USB Device Connected
+id: 7a6262c6-2998-4fa9-944f-563d00eeb860
+status: experimental
+description: Detects a SanDisk Ultra by its default USB VID/PID. These identifiers can be spoofed, so treat this as an indicator.
+references:
+    - https://lothardware.com.tr/sandisk-ultra/
+author: '@enesilhaydin'
+date: 2026/06/22
+logsource:
+    product: windows
+    service: security
+detection:
+    selection:
+        EventID: 6416
+        DeviceId|contains: 'VID_0781&PID_5581'
+    condition: selection
+falsepositives:
+    - Unrelated hardware sharing the same controller VID/PID
+level: medium
+tags:
+    - attack.initial_access
+    - attack.t1200
+```
+
+Requires Windows Audit PNP Activity (Security Event 6416).
 
 ### Links
 

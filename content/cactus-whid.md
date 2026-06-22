@@ -15,23 +15,32 @@ description: The Cactus WHID, developed by the open-source community and availab
 ```text
 HID\VID_1B4F&PID_9207
 ```
+`1B4F:9207` is the Arduino LilyPadUSB profile, the caterina-LilyPadUSB bootloader that the WHID's ATmega32U4 runs; `1B4F:9208` is that bootloader's own ID.
 
 ### VendorID
 
 ```text
 1B4F
 ```
+SparkFun Electronics block.
 
 ### ProductID
 
+Runtime (LilyPadUSB profile):
 ```text
 9207
 ```
+Bootloader:
+```text
+9208
+```
+
 ### Class
 
 ```text
 HID
 ```
+Note: the WHID's onboard WiFi firmware lets the operator spoof another vendor's VID/PID, often a Logitech device, so the IDs above are indicators rather than guarantees.
 
 ### Author
 
@@ -41,7 +50,32 @@ HID
 
 ### Sigma/Yara Rules
 
-Coming Soon...
+```yaml
+title: Cactus WHID USB Device Connected
+id: a18483fe-c1f4-4c1c-8d01-ec6968787b4e
+status: experimental
+description: Detects a Cactus WHID by its default USB VID/PID. These identifiers can be spoofed, so treat this as an indicator.
+references:
+    - https://lothardware.com.tr/cactus-whid/
+author: '@enesilhaydin'
+date: 2026/06/22
+logsource:
+    product: windows
+    service: security
+detection:
+    selection:
+        EventID: 6416
+        DeviceId|contains: 'VID_1B4F&PID_9207'
+    condition: selection
+falsepositives:
+    - Unrelated hardware sharing the same controller VID/PID
+level: medium
+tags:
+    - attack.initial_access
+    - attack.t1200
+```
+
+Requires Windows Audit PNP Activity (Security Event 6416).
 
 ### Links
 

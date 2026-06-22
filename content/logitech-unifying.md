@@ -12,44 +12,54 @@ description: First and foremost, it's worth noting that this capability function
 
 ### Device Instance Path
 
-V2:
+Unifying:
 ```text
 USB\VID_046D&PID_C52B
 ```
 
-V1:
+Older Unifying:
 ```text
-USB\VID_046D&PID_C539
+USB\VID_046D&PID_C532
 ```
 
 ### VendorID
-V2:
-```text
-046D
-```
 
-V1:
 ```text
 046D
 ```
+Logitech.
 
 ### ProductID
 
-V2:
+Unifying receivers:
 ```text
 C52B
+C532
 ```
-
-V1:
+Nano receivers (also Unifying-class):
+```text
+C526
+C52F
+C531
+C534
+```
+Logi Bolt (current generation):
+```text
+C548
+```
+Lightspeed (gaming) receiver, NOT Unifying:
 ```text
 C539
 ```
 
+Note: MouseJack (Bastille) keystroke-injection also affects non-Logitech dongles, including AmazonBasics `04F2:0976`, Dell `413C:2501`, Gigabyte `04B4:0060`, HP `03F0:D407`, Lenovo `17EF:6071`, and Microsoft `045E:0745`.
+
 ### Class
 
 ```text
-USB
+HID
 ```
+Wireless receiver. The attack relays HID reports through the receiver by exploiting CVE-2019-13052 (the Unifying AES key-pairing weakness), turning the receiver into a Rubber Ducky.
 
 ### Author
 
@@ -59,9 +69,35 @@ USB
 
 ### Sigma/Yara Rules
 
-Coming Soon...
+```yaml
+title: Logitech Unifying Receiver USB Device Connected
+id: 1c9a654d-30f8-4443-ad47-754c8fc878e5
+status: experimental
+description: Detects a Logitech Unifying Receiver by its default USB VID/PID. These identifiers can be spoofed, so treat this as an indicator.
+references:
+    - https://lothardware.com.tr/logitech-unifying/
+author: '@enesilhaydin'
+date: 2026/06/22
+logsource:
+    product: windows
+    service: security
+detection:
+    selection:
+        EventID: 6416
+        DeviceId|contains: 'VID_046D&PID_C52B'
+    condition: selection
+falsepositives:
+    - Unrelated hardware sharing the same controller VID/PID
+level: medium
+tags:
+    - attack.initial_access
+    - attack.t1200
+```
+
+Requires Windows Audit PNP Activity (Security Event 6416).
 
 ### Links
 
-1- https://www.logitech.com/tr-tr/products/mice/unifying-receiver-usb.910-005236.html
-2- https://medium.com/@enesilhaydin/mini-mini-logitech-rubber-ducky-6016c72916eb
+1- https://www.logitech.com/tr-tr/products/mice/unifying-receiver-usb.910-005236.html \
+2- https://medium.com/@enesilhaydin/mini-mini-logitech-rubber-ducky-6016c72916eb \
+3- https://www.bastille.net/research/vulnerabilities/mousejack/affected-devices

@@ -12,8 +12,17 @@ description: The Flipper Zero device, as documented in the insightful resource a
 
 ### Device Instance Path
 
+VCP / serial:
 ```text
 USB\VID_0483&PID_5740
+```
+DFU:
+```text
+USB\VID_0483&PID_DF11
+```
+Important: in BadUSB mode the Flipper Zero DEFAULTS to spoofing a Logitech keyboard, so `0483:5740` will NOT appear during a BadUSB attack. The spoofed identity is:
+```text
+USB\VID_046D&PID_C529
 ```
 
 ### VendorID
@@ -21,16 +30,27 @@ USB\VID_0483&PID_5740
 ```text
 0483
 ```
+STMicroelectronics (reused; the Flipper uses an STM32, so this VID is not Flipper-specific).
 
 ### ProductID
 
+VCP / serial:
 ```text
 5740
 ```
+DFU:
+```text
+DF11
+```
+BadUSB default (spoofed via Logitech VID 046D):
+```text
+C529
+```
+
 ### Class
 
 ```text
-USB
+CDC Serial / HID (BadUSB) / Composite
 ```
 ### Author
 
@@ -40,7 +60,35 @@ USB
 
 ### Sigma/Yara Rules
 
-Coming Soon...
+```yaml
+title: Flipper Zero USB Device Connected
+id: e3162e1f-82c8-411c-9b8d-f4b835b94a75
+status: experimental
+description: Detects a Flipper Zero by its default USB VID/PID. These identifiers can be spoofed, so treat this as an indicator.
+references:
+    - https://lothardware.com.tr/flipper-zero/
+author: '@enesilhaydin'
+date: 2026/06/22
+logsource:
+    product: windows
+    service: security
+detection:
+    selection:
+        EventID: 6416
+        DeviceId|contains: 'VID_0483&PID_5740'
+    selection_badusb:
+        EventID: 6416
+        DeviceId|contains: 'VID_046D&PID_C529'
+    condition: selection or selection_badusb
+falsepositives:
+    - Unrelated hardware sharing the same controller VID/PID
+level: medium
+tags:
+    - attack.initial_access
+    - attack.t1200
+```
+
+Requires Windows Audit PNP Activity (Security Event 6416).
 
 ### Links
 

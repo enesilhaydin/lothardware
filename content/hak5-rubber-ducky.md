@@ -32,6 +32,7 @@ HID\VID_03EB&PID_2422&REV_0100
 ```text
 03EB
 ```
+Atmel Corp.
 
 ### ProductID
 
@@ -43,10 +44,20 @@ Using `ATTACKMODE HID STORAGE`:
 ```text
 2422
 ```
+Alternate firmware:
+```text
+2403
+```
+DFU bootloader:
+```text
+2FF6
+```
+Note: the 2022 USB-C Rubber Ducky model uses a closed firmware with no public teardown, so its chipset and default ID are unknown.
+
 ### Class
 
 ```text
-HID
+HID (or HID + Mass Storage)
 ```
 ### Author
 
@@ -57,7 +68,32 @@ HID
 
 ### Sigma/Yara Rules
 
-Coming Soon...
+```yaml
+title: Hak5 Rubber Ducky USB Device Connected
+id: 3ee76c5b-08e1-466a-be7b-d1e94ffcb617
+status: experimental
+description: Detects a Hak5 Rubber Ducky by its default USB VID/PID. These identifiers can be spoofed, so treat this as an indicator.
+references:
+    - https://lothardware.com.tr/hak5-rubber-ducky/
+author: '@enesilhaydin'
+date: 2026/06/22
+logsource:
+    product: windows
+    service: security
+detection:
+    selection:
+        EventID: 6416
+        DeviceId|contains: 'VID_03EB&PID_2401'
+    condition: selection
+falsepositives:
+    - Unrelated hardware sharing the same controller VID/PID
+level: medium
+tags:
+    - attack.initial_access
+    - attack.t1200
+```
+
+Requires Windows Audit PNP Activity (Security Event 6416).
 
 ### Links
 
