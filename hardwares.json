@@ -1,1 +1,179 @@
-{"lastUpdate":"2023-09-27","products": [{"title":"Nordic NRF52840","date":"2023-09-25","instancePath":"USB\\VID_1915&PID_520C","author":"@enesilhaydin"},{"title":"Logitech Unifying Receiver","date":"2023-09-25","instancePath":[{"v2":"USB\\VID_046D&PID_C52B","v1":"USB\\VID_046D&PID_C539"}],"author":"@enesilhaydin"},{"title":"Hak5 Rubber Ducky","date":"2023-09-25","instancePath":"HID\\VID_03EB&PID_2401","author":"@enesilhaydin"},{"title":"Cactus WHID","date":"2023-09-25","instancePath":"HID\\VID_1B4F&PID_9207","author":"@enesilhaydin"},{"title":"USB Nova","date":"2023-09-27","instancePath":"?\\VID_16D0&PID_11A4","author":"@enesilhaydin"},{"title":"Teensy","date":"2023-09-27","instancePath":"HID\\VID_16C0&PID_0478","author":"@enesilhaydin"},{"title":"Sandisk Ultra 16GB","date":"2023-09-27","instancePath":"USB\\VID_0781&PID_5581","author":"@enesilhaydin"},{"title":"Flipper Zero","date":"2023-09-27","instancePath":"USB\\VID_0483&PID_5740","author":"@enesilhaydin"},{"title":"Arduino Pro Micro","date":"2023-09-28","instancePath":"USB\\VID_2341&PID_8037","author":"@enesilhaydin"},{"title":"Digispark Attiny85","date":"2023-09-28","instancePath":"USB\\VID_16D0&PID_0753","author":"@enesilhaydin"},{"title":"Lilypad Attiny85","date":"2023-09-28","instancePath":"USB\\VID_16D0&PID_0753","author":"@enesilhaydin"}]}
+{
+  "lastUpdate": "2026-06-22",
+  "products": [
+    {
+      "title": "Cactus WHID",
+      "date": "2023-09-25",
+      "instancePath": "HID\\VID_1B4F&PID_9207",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "Logitech Unifying Receiver",
+      "date": "2023-09-25",
+      "instancePath": "USB\\VID_046D&PID_C52B",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "Nordic NRF52840",
+      "date": "2023-09-25",
+      "instancePath": "USB\\VID_1915&PID_520C",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "Flipper Zero",
+      "date": "2023-09-27",
+      "instancePath": "USB\\VID_0483&PID_5740",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "Sandisk Ultra 16GB",
+      "date": "2023-09-27",
+      "instancePath": "USB\\VID_0781&PID_5581",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "Teensy",
+      "date": "2023-09-27",
+      "instancePath": "USB\\VID_16C0&PID_0478",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "USB Nova",
+      "date": "2023-09-27",
+      "instancePath": "?\\VID_16D0&PID_11A4",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "Arduino Pro Micro",
+      "date": "2023-09-28",
+      "instancePath": "USB\\VID_2341&PID_8037",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "Digispark Attiny85",
+      "date": "2023-09-28",
+      "instancePath": "USB\\VID_16D0&PID_0753",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "Lilypad Attiny85",
+      "date": "2023-09-28",
+      "instancePath": "USB\\VID_16D0&PID_0753",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "Hak5 Rubber Ducky",
+      "date": "2023-11-15",
+      "instancePath": "HID\\VID_03EB&PID_2401",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "Bash Bunny",
+      "date": "2026-06-22",
+      "instancePath": "USB\\VID_F000&PID_FF01",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "Crazyradio PA",
+      "date": "2026-06-22",
+      "instancePath": "USB\\VID_1915&PID_7777",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "Cynthion",
+      "date": "2026-06-22",
+      "instancePath": "USB\\VID_1D50&PID_615B",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "Evil Crow Cable",
+      "date": "2026-06-22",
+      "instancePath": "USB\\VID_16D0&PID_0753",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "GreatFET One",
+      "date": "2026-06-22",
+      "instancePath": "USB\\VID_1D50&PID_60E6",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "HackRF One",
+      "date": "2026-06-22",
+      "instancePath": "USB\\VID_1D50&PID_6089",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "Key Croc",
+      "date": "2026-06-22",
+      "instancePath": "USB\\VID_F000&PID_FF01",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "LAN Turtle",
+      "date": "2026-06-22",
+      "instancePath": "USB\\VID_0BDA&PID_8152",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "MalDuino",
+      "date": "2026-06-22",
+      "instancePath": "USB\\VID_1B4F&PID_9206",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "O.MG Cable",
+      "date": "2026-06-22",
+      "instancePath": "no fixed ID (firmware-spoofable)",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "Raspberry Pi Pico",
+      "date": "2026-06-22",
+      "instancePath": "USB\\VID_2E8A&PID_0003",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "STM32 Blue Pill",
+      "date": "2026-06-22",
+      "instancePath": "USB\\VID_1EAF&PID_0004",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "Screen Crab",
+      "date": "2026-06-22",
+      "instancePath": "USB\\VID_18D1&PID_4EE7",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "Shark Jack",
+      "date": "2026-06-22",
+      "instancePath": "USB\\VID_10C4&PID_EA60",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "USB Killer",
+      "date": "2026-06-22",
+      "instancePath": "none (does not enumerate)",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "USBNinja",
+      "date": "2026-06-22",
+      "instancePath": "no fixed ID (firmware-spoofable)",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "WHID Elite",
+      "date": "2026-06-22",
+      "instancePath": "USB\\VID_1B4F&PID_9207",
+      "author": "@enesilhaydin"
+    },
+    {
+      "title": "WiFi Duck",
+      "date": "2026-06-22",
+      "instancePath": "USB\\VID_1B4F&PID_9206",
+      "author": "@enesilhaydin"
+    }
+  ]
+}
