@@ -51,7 +51,7 @@ HID (keyboard). Programmer board: CDC Serial.
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 Because the O.MG Cable lets the operator choose any VID and PID for its covert HID interface, there is no reliable signature to match while it is operating, so behavioral detection is needed: a new HID keyboard appearing on insert, scripted keystroke timing, or an unexpected Wi-Fi access point near the host. The appearance of the O.MG Programmer board (Silicon Labs CP2102, `VID_10C4&PID_EA60`) can indicate that an O.MG device is being flashed, but that controller is used by many legitimate devices, so it is a weak indicator on its own.
 

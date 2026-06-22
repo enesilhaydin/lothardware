@@ -49,7 +49,7 @@ HID
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 ```yaml
 title: Key Croc USB Device Connected

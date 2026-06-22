@@ -48,7 +48,7 @@ HID
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 ```yaml
 title: WiFi Duck USB Device Connected

@@ -66,7 +66,7 @@ HID (or HID + Mass Storage)
 @_ezlucky_
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 ```yaml
 title: Hak5 Rubber Ducky USB Device Connected

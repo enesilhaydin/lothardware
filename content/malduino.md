@@ -51,7 +51,7 @@ HID
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 ```yaml
 title: MalDuino USB Device Connected

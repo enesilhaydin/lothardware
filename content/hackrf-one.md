@@ -49,7 +49,7 @@ Vendor-specific (SDR, not HID)
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 ```yaml
 title: HackRF One USB Device Connected

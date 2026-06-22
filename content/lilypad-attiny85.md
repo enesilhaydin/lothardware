@@ -55,7 +55,7 @@ HID (low-speed V-USB)
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 ```yaml
 title: LilyPad ATtiny85 USB Device Connected

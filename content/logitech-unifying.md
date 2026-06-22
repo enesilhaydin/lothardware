@@ -67,7 +67,7 @@ Wireless receiver. The attack relays HID reports through the receiver by exploit
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 ```yaml
 title: Logitech Unifying Receiver USB Device Connected

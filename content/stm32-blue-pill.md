@@ -93,7 +93,7 @@ HID / CDC
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 ```yaml
 title: STM32 Blue Pill USB Device Connected

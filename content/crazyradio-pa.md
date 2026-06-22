@@ -49,7 +49,7 @@ Vendor-specific (libusb)
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 ```yaml
 title: Crazyradio PA USB Device Connected

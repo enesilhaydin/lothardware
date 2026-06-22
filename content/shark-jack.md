@@ -48,7 +48,7 @@ CDC Serial
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 ```yaml
 title: Shark Jack USB Device Connected

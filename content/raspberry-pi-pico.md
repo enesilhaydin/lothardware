@@ -79,7 +79,7 @@ HID / Composite / Mass storage (BOOTSEL)
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 ```yaml
 title: Raspberry Pi Pico USB Device Connected

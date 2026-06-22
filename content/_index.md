@@ -9,6 +9,4 @@ Please note that the values listed are the default ones, and an attacker can cha
 
 Want to contribute? To add a device, open a pull request on [GitHub](https://github.com/enesilhaydin/lothardware). To request a device or report an error, open an [issue](https://github.com/enesilhaydin/lothardware/issues/new/choose) or email enesilhaydin@gmail.com.
 
-This project was created by Enes Ilhan Aydin.
-
 You can download the **JSON** version of the project from this **[link](https://github.com/enesilhaydin/lothardware/blob/main/hardwares.json)**

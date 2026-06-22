@@ -50,7 +50,7 @@ Mass Storage
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 ```yaml
 title: SanDisk Ultra USB Device Connected

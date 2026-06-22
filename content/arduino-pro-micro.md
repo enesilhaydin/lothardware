@@ -60,7 +60,7 @@ HID / CDC
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 ```yaml
 title: Arduino Pro Micro USB Device Connected

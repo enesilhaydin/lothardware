@@ -46,7 +46,7 @@ Composite (HID / Mass Storage)
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 ```yaml
 title: USB Nova USB Device Connected

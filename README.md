@@ -52,7 +52,7 @@ hugo new content/<slug>.md
 ```
 
 Fill in the front matter (title, date, tags, description) and the body sections
-(Device Instance Path, VendorID, ProductID, Class, Author, Sigma/Yara Rules,
+(Device Instance Path, VendorID, ProductID, Class, Author, Sigma Rules,
 Links). Use `content/hak5-rubber-ducky.md` as a reference. New pages are drafts
 by default, so set `draft: false` once the entry is ready. Remember to add the
 same device to `hardwares.json`.

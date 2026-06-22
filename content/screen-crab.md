@@ -48,7 +48,7 @@ Composite (ADB gadget)
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 ```yaml
 title: Screen Crab USB Device Connected

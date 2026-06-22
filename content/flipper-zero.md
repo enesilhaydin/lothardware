@@ -58,7 +58,7 @@ CDC Serial / HID (BadUSB) / Composite
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 ```yaml
 title: Flipper Zero USB Device Connected

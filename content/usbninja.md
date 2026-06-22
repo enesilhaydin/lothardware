@@ -48,7 +48,7 @@ HID (keyboard / mouse)
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 USBNinja sets its own USB vendor and product IDs in firmware, so there is no fixed signature to match, and detection relies on behavior rather than identifier: a new HID keyboard or mouse appearing on insert, scripted keystroke timing, or an unexpected Bluetooth Low Energy device paired near the host.
 

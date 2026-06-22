@@ -52,7 +52,7 @@ The dongle acts as a wireless HID injector. Paired to a Logitech Unifying receiv
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 ```yaml
 title: Nordic nRF52840 Dongle USB Device Connected

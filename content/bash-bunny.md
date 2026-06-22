@@ -58,7 +58,7 @@ Composite (HID / Mass Storage / CDC Serial / RNDIS Ethernet / CDC ECM depending 
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 ```yaml
 title: Bash Bunny USB Device Connected

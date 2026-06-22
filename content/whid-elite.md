@@ -48,7 +48,7 @@ HID
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 ```yaml
 title: WHID Elite USB Device Connected

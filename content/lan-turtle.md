@@ -48,7 +48,7 @@ RNDIS Ethernet
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 ```yaml
 title: LAN Turtle USB Device Connected

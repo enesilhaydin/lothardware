@@ -48,7 +48,7 @@ none (does not enumerate)
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 This device does not enumerate over USB (no descriptor, no VID/PID), so it cannot be detected through USB device events. Detection is physical/electrical only.
 

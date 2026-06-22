@@ -33,7 +33,7 @@ hugo new content/<slug>.md   # new device page from archetypes/default.md
 
 - One Markdown file per device lives in `content/*.md`. Base templates come from the theme submodule, with a few project level overrides under `layouts/` (see below). Override a template by recreating its path under the project `layouts/` folder instead of editing the submodule.
 - Front matter (YAML): `title`, `date`, `tags` (array of strings), `description`. The archetype sets `draft: true`, so a new page stays hidden until you set `draft: false` or build with `-D`.
-- The body follows a fixed section template. Use `content/hak5-rubber-ducky.md` as the canonical example. The page opens with a centered `<img src="/images/<slug>.jpg">` block, then `## Description`, then these `###` sections in order: Device Instance Path, VendorID, ProductID, Class, Author, Sigma/Yara Rules, Links. Some older pages also carry a Limitations section.
+- The body follows a fixed section template. Use `content/hak5-rubber-ducky.md` as the canonical example. The page opens with a centered `<img src="/images/<slug>.jpg">` block, then `## Description`, then these `###` sections in order: Device Instance Path, VendorID, ProductID, Class, Author, Sigma Rules, Links. Some older pages also carry a Limitations section.
 - Device photos live in `static/images/` and are referenced from the site root, for example `/images/teensy.jpg`. Every live page currently has a matching image.
 - Taxonomy: a single `tag` taxonomy. A custom permalink puts tag pages at `/@<slug>` (`permalinks.tags: "@:slug"`).
 - Markdown allows raw HTML (`goldmark.renderer.unsafe: true`), which is how the centered image blocks work. Code highlighting uses CSS classes (`pygmentsUseClasses`) styled by `assets/chromastyles.css` (regenerate with `hugo gen chromastyles`).
@@ -62,7 +62,7 @@ The theme is a submodule and is never edited directly. The project carries a few
 
 These pages exist but still hold placeholder bodies ("Coming soon." description and empty value blocks): `arduino-pro-micro`, `digispark-attiny85`, `lilypad-attiny85`, `teensy`, `usb-nova`. They are the next thing to fill in.
 
-The plan is to grow the catalog by reviewing security literature and GitHub projects. That work covers three things: filling the empty Sigma and Yara rule sections, adding brand new devices, and, for devices that ship in more than one revision, capturing any additional or updated identifiers (extra VID/PID pairs and device instance paths). Do not invent values. Use sourced data only, and mirror every change into `hardwares.json`.
+The plan is to grow the catalog by reviewing security literature and GitHub projects. That work covers three things: filling the empty Sigma rule sections, adding brand new devices, and, for devices that ship in more than one revision, capturing any additional or updated identifiers (extra VID/PID pairs and device instance paths). Do not invent values. Use sourced data only, and mirror every change into `hardwares.json`.
 
 ### Improvement backlog (speed and design)
 
@@ -80,4 +80,3 @@ Still open:
 - Punctuation: do not use em dashes anywhere, in commits, content, or docs. Prefer commas, periods, parentheses, or a plain hyphen.
 - The site cannot always be built or rendered locally here (Hugo may be missing), so changes are often made by static reasoning. Say so when a change would benefit from a real render check.
 - Work on a branch and let the repo owner review before anything lands on `main`.
-- Attribution: keep the homepage credit line "This project was created by Enes Ilhan Aydin." The catalog is his, and device pages use the author handle `@enesilhaydin`.

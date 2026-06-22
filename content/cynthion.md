@@ -59,7 +59,7 @@ Vendor-specific
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 ```yaml
 title: Cynthion USB Device Connected

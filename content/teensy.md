@@ -71,7 +71,7 @@ HID / Composite
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 ```yaml
 title: Teensy USB Device Connected

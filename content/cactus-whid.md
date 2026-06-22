@@ -48,7 +48,7 @@ Note: the WHID's onboard WiFi firmware lets the operator spoof another vendor's 
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 ```yaml
 title: Cactus WHID USB Device Connected

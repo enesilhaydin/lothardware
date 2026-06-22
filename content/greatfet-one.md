@@ -63,7 +63,7 @@ Vendor-specific
 @enesilhaydin
 ```
 
-### Sigma/Yara Rules
+### Sigma Rules
 
 ```yaml
 title: GreatFET One USB Device Connected
